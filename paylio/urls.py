@@ -20,5 +20,5 @@ from core import views as core_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', core_views.Index, name='index'),
+    # path('', core_views.Index, name='index'),
 ]
